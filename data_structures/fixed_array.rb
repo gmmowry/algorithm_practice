@@ -31,14 +31,3 @@ class OutOfBoundsException < StandardError
     super(msg)
   end
 end
-
-# pooter = FixedArray.new(8)
-# p pooter.array.length
-
-# pooter.set(2, "hello")
-# pooter.set(5, "what up")
-# pooter.set(12, 1)
-
-# pooter.get(2)
-
-# pooter.get(10)
